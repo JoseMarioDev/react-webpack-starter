@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const App = () => {
-  return (
-    <div>
-      <h1>My React App</h1>
-    </div>
-  )
-}
+import '../utils/styles/main.scss';
 
-export default App
+const App = () => (
+  <div>
+    <h1>My React App</h1>
+  </div>
+);
+
+export default App;
