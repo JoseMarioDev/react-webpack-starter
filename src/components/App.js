@@ -1,11 +1,11 @@
 import React from 'react';
 
 import '../utils/styles/main.scss';
+import Routes from '../utils/helpers/Routes';
 
 const App = () => (
   <div>
-    <h3>this is an H3 heading</h3>
-    <p>this is a paragraph</p>
+    <Routes />
   </div>
 );
 
